@@ -1,6 +1,6 @@
 #include <blynk.h>
 void setup() {
-  Blynk.begin("f337d291e55f486baed34896ab9c65d5",IPAddress(167,99,150,124),8080);
+  Blynk.begin("[redacted]",IPAddress(167,99,150,124),8080);
   pinMode(D8,INPUT);
   pinMode(D6,OUTPUT);
 }
